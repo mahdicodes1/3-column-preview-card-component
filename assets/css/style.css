@@ -28,9 +28,7 @@
 body {
   position: relative;
   display: grid;
-  place-items: center;
-  /* grid-template-columns: unset;
-  grid-template-rows: auto 30px; */
+  place-items: center; 
   padding: 60px 20px;
 
   min-height: 100vh;
@@ -122,8 +120,7 @@ body {
   font-size: 15px;
   border: solid 2px;
   font-family: "Lexend Deca", cursive;
-  align-self: end;
-  /* margin-bottom: 20px; */
+  align-self: end; 
 }
 .cars button:hover {
   text-decoration: none;
