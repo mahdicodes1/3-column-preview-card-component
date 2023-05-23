@@ -17,31 +17,28 @@
   margin: 0;
   padding: 0;
 
-  font-family: "Big Shoulders Display", cursive;
+  /* font-family: "Big Shoulders Display", cursive;
   font-family: "Fraunces", serif;
   font-family: "Hanken Grotesk", sans-serif;
   font-family: "Lexend Deca", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif; */
   font-weight: 500;
 }
 
 body {
+  position: relative;
   display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: unset;
-  grid-template-rows: auto 30px;
+  place-items: center;
+  /* grid-template-columns: unset;
+  grid-template-rows: auto 30px; */
+  padding: 60px 20px;
 
-  height: 100vh;
+  min-height: 100vh;
 
   background: var(--transparent-white);
   overflow: auto;
 }
 
-main {
-  padding: 60px 20px;
-  margin-top: 30px;
-}
 .vehicle {
   display: grid;
   grid-template-columns: unset;
@@ -50,7 +47,18 @@ main {
   overflow: hidden;
 
   border-radius: 10px;
-  max-width: 920px;
+  max-width: 340px;
+}
+.vehicle--sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 .cars {
   display: grid;
@@ -94,7 +102,7 @@ main {
   border-color: var(--very-light-gray);
   background: var(--very-dark-cyan);
 }
-.cars h1 {
+.cars h2 {
   color: var(--very-light-gray);
   font-family: "Big Shoulders Display", cursive;
   font-size: 2.5rem;
@@ -122,7 +130,9 @@ main {
   cursor: pointer;
 }
 .attribution {
-  align-self: stretch;
+  position: absolute;
+  bottom: 8px;
+  align-items: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -131,6 +141,7 @@ main {
   .vehicle {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: unset;
+    max-width: 920px;
   }
   .cars {
     height: 500px;
