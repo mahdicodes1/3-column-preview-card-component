@@ -7,7 +7,7 @@
 
 # **Challenge Name**
 
-- ### [3-Column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
+- ### [3-Column preview card component](https://www.frontendmentor.io/solutions/3column-preview-card-component-SjFCVGR6hP)
 
 <br>
 
@@ -22,7 +22,7 @@ The designs were created to the following widths:
 
 ## **Links**
 
-- Live Site URL: [click here](https://mahdicodes1.github.io/Results-summary-component/)
+- Live Site URL: [click here](https://mahdicodes1.github.io/3-column-preview-card-component/)
 
 <br>
 
