@@ -40,6 +40,7 @@ body {
 
 main {
   padding: 60px 20px;
+  margin: 30px;
 }
 .vehicle {
   display: grid;
