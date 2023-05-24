@@ -25,33 +25,33 @@
     <main>
       <article class="vehicle">
         <h1 class="vehicle--sr-only">3 column preview card component</h1>
-        <section class="cars sedan">
+        <section class="cars sedan" aria-labelledby="Sedans-Car">
           <div class="car-logo">
             <img src="./assets/images/icon-sedans.svg" alt="" />
           </div>
-          <h2>Sedans</h2>
+          <h2 id="Sedans-Car">Sedans</h2>
           <p>
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>
           <button>Learn More</button>
         </section>
-        <section class="cars suv">
+        <section class="cars suv" aria-labelledby="SUVS-Car">
           <div class="car-logo">
             <img src="./assets/images/icon-suvs.svg" alt="" />
           </div>
-          <h2>SUVs</h2>
+          <h2 id="SUVS-Car">SUVs</h2>
           <p>
             Take an SUV for its spacious interior, power, and versatility.
             Perfect for your next family vacation and off-road adventures.
           </p>
           <button>Learn More</button>
         </section>
-        <section class="cars luxury">
+        <section class="cars luxury" aria-labelledby="Luxuries-Car">
           <div class="car-logo">
             <img src="./assets/images/icon-luxury.svg" alt="" />
           </div>
-          <h2>Luxury</h2>
+          <h2  id="Luxuries-Car">Luxury</h2>
           <p>
             Cruise in the best car brands without the bloated prices. Enjoy the
             enhanced comfort of a luxury rental and arrive in style.
@@ -63,9 +63,13 @@
 
     <div class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a href="https://www.frontendmentor.io/solutions/3column-preview-card-component-SjFCVGR6hP" target="_blank"
+        aria-describedby="Frontend Mentor Website"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Mahdi Ali</a>.
+      >. Coded by <a href="https://github.com/mahdicodes1/3-column-preview-card-component"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-describedby="Mahdi Ali's Github profile">Mahdi Ali</a>.
     </div>
   </body>
 </html>
